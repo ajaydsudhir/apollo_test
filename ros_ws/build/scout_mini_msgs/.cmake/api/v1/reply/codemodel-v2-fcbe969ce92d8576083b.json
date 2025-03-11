@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-77cb319d1a7212111b5d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "scout_mini_msgs__py",
+					"jsonFile" : "directory-scout_mini_msgs__py-4d36cc0c75c23abc0d1d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Apollo/ros_ws/build/scout_mini_msgs/scout_mini_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "scout_mini_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_scout_mini_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_scout_mini_msgs_egg-e68d52eba04882b23346.json",
+					"name" : "ament_cmake_python_build_scout_mini_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_scout_mini_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_scout_mini_msgs-d006093558406c5e64e7.json",
+					"name" : "ament_cmake_python_copy_scout_mini_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scout_mini_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scout_mini_msgs-ce1152b31ec3e5d54a4d.json",
+					"name" : "scout_mini_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scout_mini_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scout_mini_msgs__cpp-05fa01e0eb2ef3c904db.json",
+					"name" : "scout_mini_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "scout_mini_msgs__py::@6af39aef583e9bbf1aa3",
+					"jsonFile" : "target-scout_mini_msgs__py-ad68f11d6c2002528e25.json",
+					"name" : "scout_mini_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scout_mini_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scout_mini_msgs__rosidl_generator_c-d2c18797f733c49a90ad.json",
+					"name" : "scout_mini_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scout_mini_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scout_mini_msgs__rosidl_generator_py-b55f266148e2afb37c55.json",
+					"name" : "scout_mini_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scout_mini_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scout_mini_msgs__rosidl_typesupport_c-fdf928e4fbc0b2c3faab.json",
+					"name" : "scout_mini_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scout_mini_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scout_mini_msgs__rosidl_typesupport_c__pyext-b434d17e399b1599217a.json",
+					"name" : "scout_mini_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scout_mini_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scout_mini_msgs__rosidl_typesupport_cpp-de3b42d4584ee75b6235.json",
+					"name" : "scout_mini_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scout_mini_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scout_mini_msgs__rosidl_typesupport_fastrtps_c-97babf3b05604a9a571c.json",
+					"name" : "scout_mini_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scout_mini_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scout_mini_msgs__rosidl_typesupport_fastrtps_c__pyext-b2f748326c1ab62762f5.json",
+					"name" : "scout_mini_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scout_mini_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scout_mini_msgs__rosidl_typesupport_fastrtps_cpp-94a1f58e0620b50802b7.json",
+					"name" : "scout_mini_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scout_mini_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scout_mini_msgs__rosidl_typesupport_introspection_c-53c30bc21262adde46b0.json",
+					"name" : "scout_mini_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scout_mini_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scout_mini_msgs__rosidl_typesupport_introspection_c__pyext-5e448cde8cab102520ba.json",
+					"name" : "scout_mini_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scout_mini_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scout_mini_msgs__rosidl_typesupport_introspection_cpp-df50eab6a863c4676bfe.json",
+					"name" : "scout_mini_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scout_mini_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scout_mini_msgs_uninstall-ef63991731bba664ee32.json",
+					"name" : "scout_mini_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-9b7f3a7a57163ece3a99.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Apollo/ros_ws/build/scout_mini_msgs",
+		"source" : "/Apollo/ros_ws/src/scout_mini_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

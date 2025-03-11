@@ -1,5 +1,5 @@
 CMakeFiles/scout_mini_hardware.dir/src/scout_mini_hardware.cpp.o: \
- /apollo/ros_ws/src/scout_mini_hardware/src/scout_mini_hardware.cpp \
+ /Apollo/ros_ws/src/scout_mini_hardware/src/scout_mini_hardware.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -146,7 +146,7 @@ CMakeFiles/scout_mini_hardware.dir/src/scout_mini_hardware.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc /usr/include/c++/11/bitset \
- /apollo/ros_ws/src/scout_mini_hardware/include/scout_mini_hardware/scout_mini_hardware.hpp \
+ /Apollo/ros_ws/src/scout_mini_hardware/include/scout_mini_hardware/scout_mini_hardware.hpp \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
@@ -677,38 +677,38 @@ CMakeFiles/scout_mini_hardware.dir/src/scout_mini_hardware.cpp.o: \
  /usr/include/x86_64-linux-gnu/asm/posix_types.h \
  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
  /usr/include/asm-generic/posix_types.h /usr/include/linux/socket.h \
- /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/driver_state.hpp \
- /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__struct.hpp \
- /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__builder.hpp \
- /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__traits.hpp \
- /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__type_support.hpp \
- /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/fault_state.hpp \
- /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__struct.hpp \
- /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__builder.hpp \
- /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__traits.hpp \
- /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__type_support.hpp \
- /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/light_command.hpp \
- /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__struct.hpp \
- /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__builder.hpp \
- /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__traits.hpp \
- /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__type_support.hpp \
- /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/light_state.hpp \
- /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__struct.hpp \
- /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__builder.hpp \
- /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__traits.hpp \
- /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__type_support.hpp \
- /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/motor_state.hpp \
- /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__struct.hpp \
- /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__builder.hpp \
- /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__traits.hpp \
- /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__type_support.hpp \
- /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/robot_state.hpp \
- /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__struct.hpp \
- /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__builder.hpp \
- /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__traits.hpp \
- /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__type_support.hpp \
- /apollo/ros_ws/src/scout_mini_hardware/include/scout_mini_hardware/visibility_control.h \
+ /Apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/driver_state.hpp \
+ /Apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__struct.hpp \
+ /Apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__builder.hpp \
+ /Apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__traits.hpp \
+ /Apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__type_support.hpp \
+ /Apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /Apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/fault_state.hpp \
+ /Apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__struct.hpp \
+ /Apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__builder.hpp \
+ /Apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__traits.hpp \
+ /Apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__type_support.hpp \
+ /Apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/light_command.hpp \
+ /Apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__struct.hpp \
+ /Apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__builder.hpp \
+ /Apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__traits.hpp \
+ /Apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__type_support.hpp \
+ /Apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/light_state.hpp \
+ /Apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__struct.hpp \
+ /Apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__builder.hpp \
+ /Apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__traits.hpp \
+ /Apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__type_support.hpp \
+ /Apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/motor_state.hpp \
+ /Apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__struct.hpp \
+ /Apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__builder.hpp \
+ /Apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__traits.hpp \
+ /Apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__type_support.hpp \
+ /Apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/robot_state.hpp \
+ /Apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__struct.hpp \
+ /Apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__builder.hpp \
+ /Apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__traits.hpp \
+ /Apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__type_support.hpp \
+ /Apollo/ros_ws/src/scout_mini_hardware/include/scout_mini_hardware/visibility_control.h \
  /opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp \
  /opt/ros/humble/include/class_loader/class_loader/class_loader.hpp \
  /usr/include/c++/11/cstddef /usr/include/console_bridge/console.h \

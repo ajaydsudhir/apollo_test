@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /apollo/ros_ws/src/scout_mini_msgs
+CMAKE_SOURCE_DIR = /Apollo/ros_ws/src/scout_mini_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /apollo/ros_ws/build/scout_mini_msgs
+CMAKE_BINARY_DIR = /Apollo/ros_ws/build/scout_mini_msgs
 
 # Utility rule file for ament_cmake_python_copy_scout_mini_msgs.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_scout_mini_msgs.dir/compiler_depend.m
 include CMakeFiles/ament_cmake_python_copy_scout_mini_msgs.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_scout_mini_msgs:
-	/usr/bin/cmake -E copy_directory /apollo/ros_ws/build/scout_mini_msgs/rosidl_generator_py/scout_mini_msgs /apollo/ros_ws/build/scout_mini_msgs/ament_cmake_python/scout_mini_msgs/scout_mini_msgs
+	/usr/bin/cmake -E copy_directory /Apollo/ros_ws/build/scout_mini_msgs/rosidl_generator_py/scout_mini_msgs /Apollo/ros_ws/build/scout_mini_msgs/ament_cmake_python/scout_mini_msgs/scout_mini_msgs
 
 ament_cmake_python_copy_scout_mini_msgs: CMakeFiles/ament_cmake_python_copy_scout_mini_msgs
 ament_cmake_python_copy_scout_mini_msgs: CMakeFiles/ament_cmake_python_copy_scout_mini_msgs.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_copy_scout_mini_msgs.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_copy_scout_mini_msgs.dir/clean
 
 CMakeFiles/ament_cmake_python_copy_scout_mini_msgs.dir/depend:
-	cd /apollo/ros_ws/build/scout_mini_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /apollo/ros_ws/src/scout_mini_msgs /apollo/ros_ws/src/scout_mini_msgs /apollo/ros_ws/build/scout_mini_msgs /apollo/ros_ws/build/scout_mini_msgs /apollo/ros_ws/build/scout_mini_msgs/CMakeFiles/ament_cmake_python_copy_scout_mini_msgs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Apollo/ros_ws/build/scout_mini_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Apollo/ros_ws/src/scout_mini_msgs /Apollo/ros_ws/src/scout_mini_msgs /Apollo/ros_ws/build/scout_mini_msgs /Apollo/ros_ws/build/scout_mini_msgs /Apollo/ros_ws/build/scout_mini_msgs/CMakeFiles/ament_cmake_python_copy_scout_mini_msgs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_copy_scout_mini_msgs.dir/depend
 

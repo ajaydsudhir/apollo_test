@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "scout_mini_base")
 set(scout_mini_base_VERSION "0.1.0")
-set(scout_mini_base_MAINTAINER "Brighten Lee <shlee@roas.co.kr>")
+set(scout_mini_base_MAINTAINER "Ajay Sudhir <ajaydsudhir@gmail.com>")
 set(scout_mini_base_BUILD_DEPENDS "ros2_control" "ros2_controllers" "twist_mux")
 set(scout_mini_base_BUILDTOOL_DEPENDS "ament_cmake")
 set(scout_mini_base_BUILD_EXPORT_DEPENDS "ros2_control" "ros2_controllers" "twist_mux")

@@ -1,1 +1,1 @@
-/apollo/ros_ws/install/scout_mini_msgs:/opt/ros/humble
+/Apollo/ros_ws/install/scout_mini_ros2:/Apollo/ros_ws/install/scout_mini_hardware:/Apollo/ros_ws/install/scout_mini_msgs:/Apollo/ros_ws/install/scout_mini_description:/Apollo/ros_ws/install/scout_mini_base:/opt/ros/humble

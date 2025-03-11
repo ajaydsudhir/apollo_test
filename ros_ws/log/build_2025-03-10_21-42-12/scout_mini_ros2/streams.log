@@ -1,0 +1,39 @@
+[0.420s] Invoking command in '/Apollo/ros_ws/build/scout_mini_ros2': CMAKE_PREFIX_PATH=/Apollo/ros_ws/install/scout_mini_hardware:/Apollo/ros_ws/install/scout_mini_msgs:/Apollo/ros_ws/install/scout_mini_description:/Apollo/ros_ws/install/scout_mini_base:/Apollo/ros_ws/install/scout_mini_ros2:/opt/ros/humble /usr/bin/cmake /Apollo/ros_ws/src/scout_mini_ros2 -DCMAKE_INSTALL_PREFIX=/Apollo/ros_ws/install/scout_mini_ros2
+[1.466s] -- The C compiler identification is GNU 11.4.0
+[1.914s] -- The CXX compiler identification is GNU 11.4.0
+[2.003s] -- Detecting C compiler ABI info
+[3.529s] -- Detecting C compiler ABI info - done
+[3.571s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.576s] -- Detecting C compile features
+[3.581s] -- Detecting C compile features - done
+[3.640s] -- Detecting CXX compiler ABI info
+[5.159s] -- Detecting CXX compiler ABI info - done
+[5.203s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.203s] -- Detecting CXX compile features
+[5.204s] -- Detecting CXX compile features - done
+[5.395s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.241s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[10.834s] -- Configuring done
+[11.174s] -- Generating done
+[11.378s] -- Build files have been written to: /Apollo/ros_ws/build/scout_mini_ros2
+[11.383s] Invoked command in '/Apollo/ros_ws/build/scout_mini_ros2' returned '0': CMAKE_PREFIX_PATH=/Apollo/ros_ws/install/scout_mini_hardware:/Apollo/ros_ws/install/scout_mini_msgs:/Apollo/ros_ws/install/scout_mini_description:/Apollo/ros_ws/install/scout_mini_base:/Apollo/ros_ws/install/scout_mini_ros2:/opt/ros/humble /usr/bin/cmake /Apollo/ros_ws/src/scout_mini_ros2 -DCMAKE_INSTALL_PREFIX=/Apollo/ros_ws/install/scout_mini_ros2
+[11.394s] Invoking command in '/Apollo/ros_ws/build/scout_mini_ros2': CMAKE_PREFIX_PATH=/Apollo/ros_ws/install/scout_mini_hardware:/Apollo/ros_ws/install/scout_mini_msgs:/Apollo/ros_ws/install/scout_mini_description:/Apollo/ros_ws/install/scout_mini_base:/Apollo/ros_ws/install/scout_mini_ros2:/opt/ros/humble /usr/bin/cmake --build /Apollo/ros_ws/build/scout_mini_ros2 -- -j20 -l20
+[12.373s] Invoked command in '/Apollo/ros_ws/build/scout_mini_ros2' returned '0': CMAKE_PREFIX_PATH=/Apollo/ros_ws/install/scout_mini_hardware:/Apollo/ros_ws/install/scout_mini_msgs:/Apollo/ros_ws/install/scout_mini_description:/Apollo/ros_ws/install/scout_mini_base:/Apollo/ros_ws/install/scout_mini_ros2:/opt/ros/humble /usr/bin/cmake --build /Apollo/ros_ws/build/scout_mini_ros2 -- -j20 -l20
+[12.402s] Invoking command in '/Apollo/ros_ws/build/scout_mini_ros2': CMAKE_PREFIX_PATH=/Apollo/ros_ws/install/scout_mini_hardware:/Apollo/ros_ws/install/scout_mini_msgs:/Apollo/ros_ws/install/scout_mini_description:/Apollo/ros_ws/install/scout_mini_base:/Apollo/ros_ws/install/scout_mini_ros2:/opt/ros/humble /usr/bin/cmake --install /Apollo/ros_ws/build/scout_mini_ros2
+[12.555s] -- Install configuration: ""
+[12.584s] -- Installing: /Apollo/ros_ws/install/scout_mini_ros2/share/ament_index/resource_index/package_run_dependencies/scout_mini_ros2
+[12.690s] -- Installing: /Apollo/ros_ws/install/scout_mini_ros2/share/ament_index/resource_index/parent_prefix_path/scout_mini_ros2
+[12.791s] -- Installing: /Apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/environment/ament_prefix_path.sh
+[12.858s] -- Installing: /Apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/environment/ament_prefix_path.dsv
+[12.908s] -- Installing: /Apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/environment/path.sh
+[12.968s] -- Installing: /Apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/environment/path.dsv
+[13.093s] -- Installing: /Apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/local_setup.bash
+[13.142s] -- Installing: /Apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/local_setup.sh
+[13.195s] -- Installing: /Apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/local_setup.zsh
+[13.258s] -- Installing: /Apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/local_setup.dsv
+[13.335s] -- Installing: /Apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/package.dsv
+[13.425s] -- Installing: /Apollo/ros_ws/install/scout_mini_ros2/share/ament_index/resource_index/packages/scout_mini_ros2
+[13.528s] -- Installing: /Apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/cmake/scout_mini_ros2Config.cmake
+[13.582s] -- Installing: /Apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/cmake/scout_mini_ros2Config-version.cmake
+[13.638s] -- Installing: /Apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/package.xml
+[13.752s] Invoked command in '/Apollo/ros_ws/build/scout_mini_ros2' returned '0': CMAKE_PREFIX_PATH=/Apollo/ros_ws/install/scout_mini_hardware:/Apollo/ros_ws/install/scout_mini_msgs:/Apollo/ros_ws/install/scout_mini_description:/Apollo/ros_ws/install/scout_mini_base:/Apollo/ros_ws/install/scout_mini_ros2:/opt/ros/humble /usr/bin/cmake --install /Apollo/ros_ws/build/scout_mini_ros2

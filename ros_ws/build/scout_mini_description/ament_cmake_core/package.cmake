@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "scout_mini_description")
 set(scout_mini_description_VERSION "0.1.0")
-set(scout_mini_description_MAINTAINER "Brighten Lee <shlee@roas.co.kr>")
+set(scout_mini_description_MAINTAINER "Ajay Sudhir <ajaydsudhir@gmail.com>")
 set(scout_mini_description_BUILD_DEPENDS "urdf" "rviz2" "robot_state_publisher")
 set(scout_mini_description_BUILDTOOL_DEPENDS "ament_cmake")
 set(scout_mini_description_BUILD_EXPORT_DEPENDS "urdf" "rviz2" "robot_state_publisher")

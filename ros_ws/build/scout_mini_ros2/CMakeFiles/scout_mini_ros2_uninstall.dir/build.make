@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /apollo/ros_ws/src/scout_mini_ros2
+CMAKE_SOURCE_DIR = /Apollo/ros_ws/src/scout_mini_ros2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /apollo/ros_ws/build/scout_mini_ros2
+CMAKE_BINARY_DIR = /Apollo/ros_ws/build/scout_mini_ros2
 
 # Utility rule file for scout_mini_ros2_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/scout_mini_ros2_uninstall.dir/compiler_depend.make
 include CMakeFiles/scout_mini_ros2_uninstall.dir/progress.make
 
 CMakeFiles/scout_mini_ros2_uninstall:
-	/usr/bin/cmake -P /apollo/ros_ws/build/scout_mini_ros2/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /Apollo/ros_ws/build/scout_mini_ros2/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 scout_mini_ros2_uninstall: CMakeFiles/scout_mini_ros2_uninstall
 scout_mini_ros2_uninstall: CMakeFiles/scout_mini_ros2_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/scout_mini_ros2_uninstall.dir/clean:
 .PHONY : CMakeFiles/scout_mini_ros2_uninstall.dir/clean
 
 CMakeFiles/scout_mini_ros2_uninstall.dir/depend:
-	cd /apollo/ros_ws/build/scout_mini_ros2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /apollo/ros_ws/src/scout_mini_ros2 /apollo/ros_ws/src/scout_mini_ros2 /apollo/ros_ws/build/scout_mini_ros2 /apollo/ros_ws/build/scout_mini_ros2 /apollo/ros_ws/build/scout_mini_ros2/CMakeFiles/scout_mini_ros2_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Apollo/ros_ws/build/scout_mini_ros2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Apollo/ros_ws/src/scout_mini_ros2 /Apollo/ros_ws/src/scout_mini_ros2 /Apollo/ros_ws/build/scout_mini_ros2 /Apollo/ros_ws/build/scout_mini_ros2 /Apollo/ros_ws/build/scout_mini_ros2/CMakeFiles/scout_mini_ros2_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/scout_mini_ros2_uninstall.dir/depend
 

@@ -1,0 +1,61 @@
+[0.348s] Invoking command in '/Apollo/ros_ws/build/scout_mini_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /Apollo/ros_ws/src/scout_mini_base -DCMAKE_INSTALL_PREFIX=/Apollo/ros_ws/install/scout_mini_base
+[0.852s] -- The C compiler identification is GNU 11.4.0
+[1.168s] -- The CXX compiler identification is GNU 11.4.0
+[1.253s] -- Detecting C compiler ABI info
+[2.466s] -- Detecting C compiler ABI info - done
+[2.609s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.610s] -- Detecting C compile features
+[2.611s] -- Detecting C compile features - done
+[2.686s] -- Detecting CXX compiler ABI info
+[5.011s] -- Detecting CXX compiler ABI info - done
+[5.124s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.128s] -- Detecting CXX compile features
+[5.146s] -- Detecting CXX compile features - done
+[5.611s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.105s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.746s] -- Found ros2_control: 2.48.0 (/opt/ros/humble/share/ros2_control/cmake)
+[6.849s] -- Found ros2_controllers: 2.41.0 (/opt/ros/humble/share/ros2_controllers/cmake)
+[6.865s] -- Found twist_mux: 4.3.0 (/opt/ros/humble/share/twist_mux/cmake)
+[7.063s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[7.071s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.130s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[7.191s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.222s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.292s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.299s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.032s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.552s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.893s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.286s] -- Looking for pthread.h
+[10.297s] -- Looking for pthread.h - found
+[10.307s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.318s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[11.323s] -- Found Threads: TRUE  
+[12.142s] -- Configuring done
+[13.215s] -- Generating done
+[13.655s] -- Build files have been written to: /Apollo/ros_ws/build/scout_mini_base
+[13.663s] Invoked command in '/Apollo/ros_ws/build/scout_mini_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /Apollo/ros_ws/src/scout_mini_base -DCMAKE_INSTALL_PREFIX=/Apollo/ros_ws/install/scout_mini_base
+[13.670s] Invoking command in '/Apollo/ros_ws/build/scout_mini_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /Apollo/ros_ws/build/scout_mini_base -- -j20 -l20
+[13.851s] Invoked command in '/Apollo/ros_ws/build/scout_mini_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /Apollo/ros_ws/build/scout_mini_base -- -j20 -l20
+[13.872s] Invoking command in '/Apollo/ros_ws/build/scout_mini_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /Apollo/ros_ws/build/scout_mini_base
+[13.888s] -- Install configuration: ""
+[13.892s] -- Installing: /Apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/config
+[13.918s] -- Installing: /Apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/config/scout_mini.yaml
+[14.055s] -- Installing: /Apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/launch
+[14.079s] -- Installing: /Apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/launch/base_launch.py
+[14.166s] -- Installing: /Apollo/ros_ws/install/scout_mini_base/share/ament_index/resource_index/package_run_dependencies/scout_mini_base
+[14.264s] -- Installing: /Apollo/ros_ws/install/scout_mini_base/share/ament_index/resource_index/parent_prefix_path/scout_mini_base
+[14.438s] -- Installing: /Apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/environment/ament_prefix_path.sh
+[14.576s] -- Installing: /Apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/environment/ament_prefix_path.dsv
+[14.770s] -- Installing: /Apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/environment/path.sh
+[14.925s] -- Installing: /Apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/environment/path.dsv
+[15.039s] -- Installing: /Apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/local_setup.bash
+[15.118s] -- Installing: /Apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/local_setup.sh
+[15.199s] -- Installing: /Apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/local_setup.zsh
+[15.257s] -- Installing: /Apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/local_setup.dsv
+[15.315s] -- Installing: /Apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/package.dsv
+[15.473s] -- Installing: /Apollo/ros_ws/install/scout_mini_base/share/ament_index/resource_index/packages/scout_mini_base
+[15.686s] -- Installing: /Apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/cmake/scout_mini_baseConfig.cmake
+[15.752s] -- Installing: /Apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/cmake/scout_mini_baseConfig-version.cmake
+[15.815s] -- Installing: /Apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/package.xml
+[15.868s] Invoked command in '/Apollo/ros_ws/build/scout_mini_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /Apollo/ros_ws/build/scout_mini_base

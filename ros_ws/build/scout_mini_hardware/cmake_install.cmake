@@ -1,8 +1,8 @@
-# Install script for directory: /apollo/ros_ws/src/scout_mini_hardware
+# Install script for directory: /Apollo/ros_ws/src/scout_mini_hardware
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/apollo/ros_ws/install/scout_mini_hardware")
+  set(CMAKE_INSTALL_PREFIX "/Apollo/ros_ws/install/scout_mini_hardware")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_mini_hardware" TYPE FILE FILES "/apollo/ros_ws/src/scout_mini_hardware/scout_mini_hardware.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_mini_hardware" TYPE FILE FILES "/Apollo/ros_ws/src/scout_mini_hardware/scout_mini_hardware.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -53,12 +53,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libscout_mini_hardware.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/apollo/ros_ws/build/scout_mini_hardware/libscout_mini_hardware.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/Apollo/ros_ws/build/scout_mini_hardware/libscout_mini_hardware.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libscout_mini_hardware.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libscout_mini_hardware.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libscout_mini_hardware.so"
-         OLD_RPATH "/opt/ros/humble/lib:/apollo/ros_ws/install/scout_mini_msgs/lib:"
+         OLD_RPATH "/opt/ros/humble/lib:/Apollo/ros_ws/install/scout_mini_msgs/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libscout_mini_hardware.so")
@@ -70,7 +70,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/apollo/ros_ws/src/scout_mini_hardware/include")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/Apollo/ros_ws/src/scout_mini_hardware/include")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -78,15 +78,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_mini_hardware/environment" TYPE FILE FILES "/apollo/ros_ws/build/scout_mini_hardware/ament_cmake_environment_hooks/library_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_mini_hardware/environment" TYPE FILE FILES "/Apollo/ros_ws/build/scout_mini_hardware/ament_cmake_environment_hooks/library_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/apollo/ros_ws/build/scout_mini_hardware/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/scout_mini_hardware")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/Apollo/ros_ws/build/scout_mini_hardware/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/scout_mini_hardware")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/apollo/ros_ws/build/scout_mini_hardware/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/scout_mini_hardware")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/Apollo/ros_ws/build/scout_mini_hardware/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/scout_mini_hardware")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -94,7 +94,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_mini_hardware/environment" TYPE FILE FILES "/apollo/ros_ws/build/scout_mini_hardware/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_mini_hardware/environment" TYPE FILE FILES "/Apollo/ros_ws/build/scout_mini_hardware/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -102,58 +102,58 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_mini_hardware/environment" TYPE FILE FILES "/apollo/ros_ws/build/scout_mini_hardware/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_mini_hardware/environment" TYPE FILE FILES "/Apollo/ros_ws/build/scout_mini_hardware/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_mini_hardware" TYPE FILE FILES "/apollo/ros_ws/build/scout_mini_hardware/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_mini_hardware" TYPE FILE FILES "/Apollo/ros_ws/build/scout_mini_hardware/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_mini_hardware" TYPE FILE FILES "/apollo/ros_ws/build/scout_mini_hardware/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_mini_hardware" TYPE FILE FILES "/Apollo/ros_ws/build/scout_mini_hardware/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_mini_hardware" TYPE FILE FILES "/apollo/ros_ws/build/scout_mini_hardware/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_mini_hardware" TYPE FILE FILES "/Apollo/ros_ws/build/scout_mini_hardware/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_mini_hardware" TYPE FILE FILES "/apollo/ros_ws/build/scout_mini_hardware/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_mini_hardware" TYPE FILE FILES "/Apollo/ros_ws/build/scout_mini_hardware/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_mini_hardware" TYPE FILE FILES "/apollo/ros_ws/build/scout_mini_hardware/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_mini_hardware" TYPE FILE FILES "/Apollo/ros_ws/build/scout_mini_hardware/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/apollo/ros_ws/build/scout_mini_hardware/ament_cmake_index/share/ament_index/resource_index/packages/scout_mini_hardware")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/Apollo/ros_ws/build/scout_mini_hardware/ament_cmake_index/share/ament_index/resource_index/packages/scout_mini_hardware")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/hardware_interface__pluginlib__plugin" TYPE FILE FILES "/apollo/ros_ws/build/scout_mini_hardware/ament_cmake_index/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/scout_mini_hardware")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/hardware_interface__pluginlib__plugin" TYPE FILE FILES "/Apollo/ros_ws/build/scout_mini_hardware/ament_cmake_index/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/scout_mini_hardware")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_mini_hardware/cmake" TYPE FILE FILES "/apollo/ros_ws/build/scout_mini_hardware/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_mini_hardware/cmake" TYPE FILE FILES "/Apollo/ros_ws/build/scout_mini_hardware/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_mini_hardware/cmake" TYPE FILE FILES "/apollo/ros_ws/build/scout_mini_hardware/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_mini_hardware/cmake" TYPE FILE FILES "/Apollo/ros_ws/build/scout_mini_hardware/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_mini_hardware/cmake" TYPE FILE FILES "/apollo/ros_ws/build/scout_mini_hardware/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_mini_hardware/cmake" TYPE FILE FILES "/Apollo/ros_ws/build/scout_mini_hardware/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_mini_hardware/cmake" TYPE FILE FILES
-    "/apollo/ros_ws/build/scout_mini_hardware/ament_cmake_core/scout_mini_hardwareConfig.cmake"
-    "/apollo/ros_ws/build/scout_mini_hardware/ament_cmake_core/scout_mini_hardwareConfig-version.cmake"
+    "/Apollo/ros_ws/build/scout_mini_hardware/ament_cmake_core/scout_mini_hardwareConfig.cmake"
+    "/Apollo/ros_ws/build/scout_mini_hardware/ament_cmake_core/scout_mini_hardwareConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_mini_hardware" TYPE FILE FILES "/apollo/ros_ws/src/scout_mini_hardware/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_mini_hardware" TYPE FILE FILES "/Apollo/ros_ws/src/scout_mini_hardware/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -164,5 +164,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/apollo/ros_ws/build/scout_mini_hardware/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Apollo/ros_ws/build/scout_mini_hardware/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

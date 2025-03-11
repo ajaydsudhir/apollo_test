@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /apollo/ros_ws/src/scout_mini_msgs
+CMAKE_SOURCE_DIR = /Apollo/ros_ws/src/scout_mini_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /apollo/ros_ws/build/scout_mini_msgs
+CMAKE_BINARY_DIR = /Apollo/ros_ws/build/scout_mini_msgs
 
 # Include any dependencies generated for this target.
 include CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/depend.make
@@ -120,8 +120,8 @@ rosidl_generator_c/scout_mini_msgs/msg/driver_state.h: /opt/ros/humble/share/std
 rosidl_generator_c/scout_mini_msgs/msg/driver_state.h: /opt/ros/humble/share/std_msgs/msg/UInt64MultiArray.idl
 rosidl_generator_c/scout_mini_msgs/msg/driver_state.h: /opt/ros/humble/share/std_msgs/msg/UInt8.idl
 rosidl_generator_c/scout_mini_msgs/msg/driver_state.h: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/apollo/ros_ws/build/scout_mini_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /apollo/ros_ws/build/scout_mini_msgs/rosidl_generator_c__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Apollo/ros_ws/build/scout_mini_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /Apollo/ros_ws/build/scout_mini_msgs/rosidl_generator_c__arguments.json
 
 rosidl_generator_c/scout_mini_msgs/msg/detail/driver_state__functions.h: rosidl_generator_c/scout_mini_msgs/msg/driver_state.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/scout_mini_msgs/msg/detail/driver_state__functions.h
@@ -213,86 +213,86 @@ rosidl_generator_c/scout_mini_msgs/msg/detail/robot_state__functions.c: rosidl_g
 CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/driver_state__functions.c.o: CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/flags.make
 CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/driver_state__functions.c.o: rosidl_generator_c/scout_mini_msgs/msg/detail/driver_state__functions.c
 CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/driver_state__functions.c.o: CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/apollo/ros_ws/build/scout_mini_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/driver_state__functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/driver_state__functions.c.o -MF CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/driver_state__functions.c.o.d -o CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/driver_state__functions.c.o -c /apollo/ros_ws/build/scout_mini_msgs/rosidl_generator_c/scout_mini_msgs/msg/detail/driver_state__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Apollo/ros_ws/build/scout_mini_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/driver_state__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/driver_state__functions.c.o -MF CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/driver_state__functions.c.o.d -o CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/driver_state__functions.c.o -c /Apollo/ros_ws/build/scout_mini_msgs/rosidl_generator_c/scout_mini_msgs/msg/detail/driver_state__functions.c
 
 CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/driver_state__functions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/driver_state__functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /apollo/ros_ws/build/scout_mini_msgs/rosidl_generator_c/scout_mini_msgs/msg/detail/driver_state__functions.c > CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/driver_state__functions.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Apollo/ros_ws/build/scout_mini_msgs/rosidl_generator_c/scout_mini_msgs/msg/detail/driver_state__functions.c > CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/driver_state__functions.c.i
 
 CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/driver_state__functions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/driver_state__functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /apollo/ros_ws/build/scout_mini_msgs/rosidl_generator_c/scout_mini_msgs/msg/detail/driver_state__functions.c -o CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/driver_state__functions.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Apollo/ros_ws/build/scout_mini_msgs/rosidl_generator_c/scout_mini_msgs/msg/detail/driver_state__functions.c -o CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/driver_state__functions.c.s
 
 CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/fault_state__functions.c.o: CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/flags.make
 CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/fault_state__functions.c.o: rosidl_generator_c/scout_mini_msgs/msg/detail/fault_state__functions.c
 CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/fault_state__functions.c.o: CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/apollo/ros_ws/build/scout_mini_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/fault_state__functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/fault_state__functions.c.o -MF CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/fault_state__functions.c.o.d -o CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/fault_state__functions.c.o -c /apollo/ros_ws/build/scout_mini_msgs/rosidl_generator_c/scout_mini_msgs/msg/detail/fault_state__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Apollo/ros_ws/build/scout_mini_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/fault_state__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/fault_state__functions.c.o -MF CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/fault_state__functions.c.o.d -o CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/fault_state__functions.c.o -c /Apollo/ros_ws/build/scout_mini_msgs/rosidl_generator_c/scout_mini_msgs/msg/detail/fault_state__functions.c
 
 CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/fault_state__functions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/fault_state__functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /apollo/ros_ws/build/scout_mini_msgs/rosidl_generator_c/scout_mini_msgs/msg/detail/fault_state__functions.c > CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/fault_state__functions.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Apollo/ros_ws/build/scout_mini_msgs/rosidl_generator_c/scout_mini_msgs/msg/detail/fault_state__functions.c > CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/fault_state__functions.c.i
 
 CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/fault_state__functions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/fault_state__functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /apollo/ros_ws/build/scout_mini_msgs/rosidl_generator_c/scout_mini_msgs/msg/detail/fault_state__functions.c -o CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/fault_state__functions.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Apollo/ros_ws/build/scout_mini_msgs/rosidl_generator_c/scout_mini_msgs/msg/detail/fault_state__functions.c -o CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/fault_state__functions.c.s
 
 CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/light_command__functions.c.o: CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/flags.make
 CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/light_command__functions.c.o: rosidl_generator_c/scout_mini_msgs/msg/detail/light_command__functions.c
 CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/light_command__functions.c.o: CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/apollo/ros_ws/build/scout_mini_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/light_command__functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/light_command__functions.c.o -MF CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/light_command__functions.c.o.d -o CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/light_command__functions.c.o -c /apollo/ros_ws/build/scout_mini_msgs/rosidl_generator_c/scout_mini_msgs/msg/detail/light_command__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Apollo/ros_ws/build/scout_mini_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/light_command__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/light_command__functions.c.o -MF CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/light_command__functions.c.o.d -o CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/light_command__functions.c.o -c /Apollo/ros_ws/build/scout_mini_msgs/rosidl_generator_c/scout_mini_msgs/msg/detail/light_command__functions.c
 
 CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/light_command__functions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/light_command__functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /apollo/ros_ws/build/scout_mini_msgs/rosidl_generator_c/scout_mini_msgs/msg/detail/light_command__functions.c > CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/light_command__functions.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Apollo/ros_ws/build/scout_mini_msgs/rosidl_generator_c/scout_mini_msgs/msg/detail/light_command__functions.c > CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/light_command__functions.c.i
 
 CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/light_command__functions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/light_command__functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /apollo/ros_ws/build/scout_mini_msgs/rosidl_generator_c/scout_mini_msgs/msg/detail/light_command__functions.c -o CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/light_command__functions.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Apollo/ros_ws/build/scout_mini_msgs/rosidl_generator_c/scout_mini_msgs/msg/detail/light_command__functions.c -o CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/light_command__functions.c.s
 
 CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/light_state__functions.c.o: CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/flags.make
 CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/light_state__functions.c.o: rosidl_generator_c/scout_mini_msgs/msg/detail/light_state__functions.c
 CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/light_state__functions.c.o: CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/apollo/ros_ws/build/scout_mini_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/light_state__functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/light_state__functions.c.o -MF CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/light_state__functions.c.o.d -o CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/light_state__functions.c.o -c /apollo/ros_ws/build/scout_mini_msgs/rosidl_generator_c/scout_mini_msgs/msg/detail/light_state__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Apollo/ros_ws/build/scout_mini_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/light_state__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/light_state__functions.c.o -MF CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/light_state__functions.c.o.d -o CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/light_state__functions.c.o -c /Apollo/ros_ws/build/scout_mini_msgs/rosidl_generator_c/scout_mini_msgs/msg/detail/light_state__functions.c
 
 CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/light_state__functions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/light_state__functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /apollo/ros_ws/build/scout_mini_msgs/rosidl_generator_c/scout_mini_msgs/msg/detail/light_state__functions.c > CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/light_state__functions.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Apollo/ros_ws/build/scout_mini_msgs/rosidl_generator_c/scout_mini_msgs/msg/detail/light_state__functions.c > CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/light_state__functions.c.i
 
 CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/light_state__functions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/light_state__functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /apollo/ros_ws/build/scout_mini_msgs/rosidl_generator_c/scout_mini_msgs/msg/detail/light_state__functions.c -o CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/light_state__functions.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Apollo/ros_ws/build/scout_mini_msgs/rosidl_generator_c/scout_mini_msgs/msg/detail/light_state__functions.c -o CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/light_state__functions.c.s
 
 CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/motor_state__functions.c.o: CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/flags.make
 CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/motor_state__functions.c.o: rosidl_generator_c/scout_mini_msgs/msg/detail/motor_state__functions.c
 CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/motor_state__functions.c.o: CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/apollo/ros_ws/build/scout_mini_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/motor_state__functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/motor_state__functions.c.o -MF CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/motor_state__functions.c.o.d -o CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/motor_state__functions.c.o -c /apollo/ros_ws/build/scout_mini_msgs/rosidl_generator_c/scout_mini_msgs/msg/detail/motor_state__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Apollo/ros_ws/build/scout_mini_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/motor_state__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/motor_state__functions.c.o -MF CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/motor_state__functions.c.o.d -o CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/motor_state__functions.c.o -c /Apollo/ros_ws/build/scout_mini_msgs/rosidl_generator_c/scout_mini_msgs/msg/detail/motor_state__functions.c
 
 CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/motor_state__functions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/motor_state__functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /apollo/ros_ws/build/scout_mini_msgs/rosidl_generator_c/scout_mini_msgs/msg/detail/motor_state__functions.c > CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/motor_state__functions.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Apollo/ros_ws/build/scout_mini_msgs/rosidl_generator_c/scout_mini_msgs/msg/detail/motor_state__functions.c > CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/motor_state__functions.c.i
 
 CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/motor_state__functions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/motor_state__functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /apollo/ros_ws/build/scout_mini_msgs/rosidl_generator_c/scout_mini_msgs/msg/detail/motor_state__functions.c -o CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/motor_state__functions.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Apollo/ros_ws/build/scout_mini_msgs/rosidl_generator_c/scout_mini_msgs/msg/detail/motor_state__functions.c -o CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/motor_state__functions.c.s
 
 CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/robot_state__functions.c.o: CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/flags.make
 CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/robot_state__functions.c.o: rosidl_generator_c/scout_mini_msgs/msg/detail/robot_state__functions.c
 CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/robot_state__functions.c.o: CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/apollo/ros_ws/build/scout_mini_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/robot_state__functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/robot_state__functions.c.o -MF CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/robot_state__functions.c.o.d -o CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/robot_state__functions.c.o -c /apollo/ros_ws/build/scout_mini_msgs/rosidl_generator_c/scout_mini_msgs/msg/detail/robot_state__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Apollo/ros_ws/build/scout_mini_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/robot_state__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/robot_state__functions.c.o -MF CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/robot_state__functions.c.o.d -o CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/robot_state__functions.c.o -c /Apollo/ros_ws/build/scout_mini_msgs/rosidl_generator_c/scout_mini_msgs/msg/detail/robot_state__functions.c
 
 CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/robot_state__functions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/robot_state__functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /apollo/ros_ws/build/scout_mini_msgs/rosidl_generator_c/scout_mini_msgs/msg/detail/robot_state__functions.c > CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/robot_state__functions.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Apollo/ros_ws/build/scout_mini_msgs/rosidl_generator_c/scout_mini_msgs/msg/detail/robot_state__functions.c > CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/robot_state__functions.c.i
 
 CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/robot_state__functions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/robot_state__functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /apollo/ros_ws/build/scout_mini_msgs/rosidl_generator_c/scout_mini_msgs/msg/detail/robot_state__functions.c -o CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/robot_state__functions.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Apollo/ros_ws/build/scout_mini_msgs/rosidl_generator_c/scout_mini_msgs/msg/detail/robot_state__functions.c -o CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/robot_state__functions.c.s
 
 # Object files for target scout_mini_msgs__rosidl_generator_c
 scout_mini_msgs__rosidl_generator_c_OBJECTS = \
@@ -318,7 +318,7 @@ libscout_mini_msgs__rosidl_generator_c.so: /opt/ros/humble/lib/libbuiltin_interf
 libscout_mini_msgs__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libscout_mini_msgs__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
 libscout_mini_msgs__rosidl_generator_c.so: CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/apollo/ros_ws/build/scout_mini_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C shared library libscout_mini_msgs__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Apollo/ros_ws/build/scout_mini_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C shared library libscout_mini_msgs__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -359,6 +359,6 @@ CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/sc
 CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/scout_mini_msgs/msg/light_state.h
 CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/scout_mini_msgs/msg/motor_state.h
 CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/scout_mini_msgs/msg/robot_state.h
-	cd /apollo/ros_ws/build/scout_mini_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /apollo/ros_ws/src/scout_mini_msgs /apollo/ros_ws/src/scout_mini_msgs /apollo/ros_ws/build/scout_mini_msgs /apollo/ros_ws/build/scout_mini_msgs /apollo/ros_ws/build/scout_mini_msgs/CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Apollo/ros_ws/build/scout_mini_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Apollo/ros_ws/src/scout_mini_msgs /Apollo/ros_ws/src/scout_mini_msgs /Apollo/ros_ws/build/scout_mini_msgs /Apollo/ros_ws/build/scout_mini_msgs /Apollo/ros_ws/build/scout_mini_msgs/CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/depend
 

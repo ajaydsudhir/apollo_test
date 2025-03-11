@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# Author: Brighten Lee
+# Author: Brighten Lee + Ajay D Sudhir
 
 import os
 from ament_index_python.packages import get_package_share_directory

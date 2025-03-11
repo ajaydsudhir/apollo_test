@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/apollo/ros_ws/src/scout_mini_hardware/src/scout_mini_hardware.cpp" "CMakeFiles/scout_mini_hardware.dir/src/scout_mini_hardware.cpp.o" "gcc" "CMakeFiles/scout_mini_hardware.dir/src/scout_mini_hardware.cpp.o.d"
+  "/Apollo/ros_ws/src/scout_mini_hardware/src/scout_mini_hardware.cpp" "CMakeFiles/scout_mini_hardware.dir/src/scout_mini_hardware.cpp.o" "gcc" "CMakeFiles/scout_mini_hardware.dir/src/scout_mini_hardware.cpp.o.d"
   )
 
 # Targets to which this target links.

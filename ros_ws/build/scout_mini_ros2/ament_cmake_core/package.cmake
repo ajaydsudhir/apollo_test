@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "scout_mini_ros2")
 set(scout_mini_ros2_VERSION "0.1.0")
-set(scout_mini_ros2_MAINTAINER "Brighten Lee <shlee@roas.co.kr>")
+set(scout_mini_ros2_MAINTAINER "Ajay Sudhir <ajaydsudhir@gmail.com>")
 set(scout_mini_ros2_BUILD_DEPENDS )
 set(scout_mini_ros2_BUILDTOOL_DEPENDS "ament_cmake")
 set(scout_mini_ros2_BUILD_EXPORT_DEPENDS )

@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "scout_mini_hardware")
 set(scout_mini_hardware_VERSION "0.1.0")
-set(scout_mini_hardware_MAINTAINER "Brighten Lee <shlee@roas.co.kr>")
+set(scout_mini_hardware_MAINTAINER "Ajay Sudhir <ajaydsudhir@gmail.com>")
 set(scout_mini_hardware_BUILD_DEPENDS "rclcpp" "hardware_interface" "pluginlib" "realtime_tools" "std_msgs" "can_msgs" "ros2_socketcan" "ros2_socketcan_msgs" "scout_mini_msgs")
 set(scout_mini_hardware_BUILDTOOL_DEPENDS "ament_cmake")
 set(scout_mini_hardware_BUILD_EXPORT_DEPENDS "rclcpp" "hardware_interface" "pluginlib" "realtime_tools" "std_msgs" "can_msgs" "ros2_socketcan" "ros2_socketcan_msgs" "scout_mini_msgs")

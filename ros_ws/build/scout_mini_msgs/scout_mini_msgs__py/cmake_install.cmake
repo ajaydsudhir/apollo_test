@@ -1,8 +1,8 @@
-# Install script for directory: /apollo/ros_ws/build/scout_mini_msgs/scout_mini_msgs__py
+# Install script for directory: /Apollo/ros_ws/build/scout_mini_msgs/scout_mini_msgs__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/apollo/ros_ws/install/scout_mini_msgs")
+  set(CMAKE_INSTALL_PREFIX "/Apollo/ros_ws/install/scout_mini_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

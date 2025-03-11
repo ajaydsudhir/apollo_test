@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /apollo/ros_ws/src/scout_mini_msgs
+CMAKE_SOURCE_DIR = /Apollo/ros_ws/src/scout_mini_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /apollo/ros_ws/build/scout_mini_msgs
+CMAKE_BINARY_DIR = /Apollo/ros_ws/build/scout_mini_msgs
 
 # Utility rule file for scout_mini_msgs.
 
@@ -66,12 +66,12 @@ include CMakeFiles/scout_mini_msgs.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/scout_mini_msgs.dir/progress.make
 
-CMakeFiles/scout_mini_msgs: /apollo/ros_ws/src/scout_mini_msgs/msg/DriverState.msg
-CMakeFiles/scout_mini_msgs: /apollo/ros_ws/src/scout_mini_msgs/msg/FaultState.msg
-CMakeFiles/scout_mini_msgs: /apollo/ros_ws/src/scout_mini_msgs/msg/LightCommand.msg
-CMakeFiles/scout_mini_msgs: /apollo/ros_ws/src/scout_mini_msgs/msg/LightState.msg
-CMakeFiles/scout_mini_msgs: /apollo/ros_ws/src/scout_mini_msgs/msg/MotorState.msg
-CMakeFiles/scout_mini_msgs: /apollo/ros_ws/src/scout_mini_msgs/msg/RobotState.msg
+CMakeFiles/scout_mini_msgs: /Apollo/ros_ws/src/scout_mini_msgs/msg/DriverState.msg
+CMakeFiles/scout_mini_msgs: /Apollo/ros_ws/src/scout_mini_msgs/msg/FaultState.msg
+CMakeFiles/scout_mini_msgs: /Apollo/ros_ws/src/scout_mini_msgs/msg/LightCommand.msg
+CMakeFiles/scout_mini_msgs: /Apollo/ros_ws/src/scout_mini_msgs/msg/LightState.msg
+CMakeFiles/scout_mini_msgs: /Apollo/ros_ws/src/scout_mini_msgs/msg/MotorState.msg
+CMakeFiles/scout_mini_msgs: /Apollo/ros_ws/src/scout_mini_msgs/msg/RobotState.msg
 CMakeFiles/scout_mini_msgs: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 CMakeFiles/scout_mini_msgs: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 CMakeFiles/scout_mini_msgs: /opt/ros/humble/share/std_msgs/msg/Bool.idl
@@ -118,6 +118,6 @@ CMakeFiles/scout_mini_msgs.dir/clean:
 .PHONY : CMakeFiles/scout_mini_msgs.dir/clean
 
 CMakeFiles/scout_mini_msgs.dir/depend:
-	cd /apollo/ros_ws/build/scout_mini_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /apollo/ros_ws/src/scout_mini_msgs /apollo/ros_ws/src/scout_mini_msgs /apollo/ros_ws/build/scout_mini_msgs /apollo/ros_ws/build/scout_mini_msgs /apollo/ros_ws/build/scout_mini_msgs/CMakeFiles/scout_mini_msgs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Apollo/ros_ws/build/scout_mini_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Apollo/ros_ws/src/scout_mini_msgs /Apollo/ros_ws/src/scout_mini_msgs /Apollo/ros_ws/build/scout_mini_msgs /Apollo/ros_ws/build/scout_mini_msgs /Apollo/ros_ws/build/scout_mini_msgs/CMakeFiles/scout_mini_msgs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/scout_mini_msgs.dir/depend
 

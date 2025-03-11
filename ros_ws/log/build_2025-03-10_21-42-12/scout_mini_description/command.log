@@ -1,0 +1,6 @@
+Invoking command in '/Apollo/ros_ws/build/scout_mini_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /Apollo/ros_ws/src/scout_mini_description -DCMAKE_INSTALL_PREFIX=/Apollo/ros_ws/install/scout_mini_description
+Invoked command in '/Apollo/ros_ws/build/scout_mini_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /Apollo/ros_ws/src/scout_mini_description -DCMAKE_INSTALL_PREFIX=/Apollo/ros_ws/install/scout_mini_description
+Invoking command in '/Apollo/ros_ws/build/scout_mini_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /Apollo/ros_ws/build/scout_mini_description -- -j20 -l20
+Invoked command in '/Apollo/ros_ws/build/scout_mini_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /Apollo/ros_ws/build/scout_mini_description -- -j20 -l20
+Invoking command in '/Apollo/ros_ws/build/scout_mini_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /Apollo/ros_ws/build/scout_mini_description
+Invoked command in '/Apollo/ros_ws/build/scout_mini_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /Apollo/ros_ws/build/scout_mini_description

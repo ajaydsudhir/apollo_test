@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /apollo/ros_ws/src/scout_mini_hardware
+CMAKE_SOURCE_DIR = /Apollo/ros_ws/src/scout_mini_hardware
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /apollo/ros_ws/build/scout_mini_hardware
+CMAKE_BINARY_DIR = /Apollo/ros_ws/build/scout_mini_hardware
 
 # Include any dependencies generated for this target.
 include CMakeFiles/scout_mini_hardware.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/scout_mini_hardware.dir/progress.make
 include CMakeFiles/scout_mini_hardware.dir/flags.make
 
 CMakeFiles/scout_mini_hardware.dir/src/scout_mini_hardware.cpp.o: CMakeFiles/scout_mini_hardware.dir/flags.make
-CMakeFiles/scout_mini_hardware.dir/src/scout_mini_hardware.cpp.o: /apollo/ros_ws/src/scout_mini_hardware/src/scout_mini_hardware.cpp
+CMakeFiles/scout_mini_hardware.dir/src/scout_mini_hardware.cpp.o: /Apollo/ros_ws/src/scout_mini_hardware/src/scout_mini_hardware.cpp
 CMakeFiles/scout_mini_hardware.dir/src/scout_mini_hardware.cpp.o: CMakeFiles/scout_mini_hardware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/apollo/ros_ws/build/scout_mini_hardware/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/scout_mini_hardware.dir/src/scout_mini_hardware.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scout_mini_hardware.dir/src/scout_mini_hardware.cpp.o -MF CMakeFiles/scout_mini_hardware.dir/src/scout_mini_hardware.cpp.o.d -o CMakeFiles/scout_mini_hardware.dir/src/scout_mini_hardware.cpp.o -c /apollo/ros_ws/src/scout_mini_hardware/src/scout_mini_hardware.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Apollo/ros_ws/build/scout_mini_hardware/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/scout_mini_hardware.dir/src/scout_mini_hardware.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scout_mini_hardware.dir/src/scout_mini_hardware.cpp.o -MF CMakeFiles/scout_mini_hardware.dir/src/scout_mini_hardware.cpp.o.d -o CMakeFiles/scout_mini_hardware.dir/src/scout_mini_hardware.cpp.o -c /Apollo/ros_ws/src/scout_mini_hardware/src/scout_mini_hardware.cpp
 
 CMakeFiles/scout_mini_hardware.dir/src/scout_mini_hardware.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scout_mini_hardware.dir/src/scout_mini_hardware.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /apollo/ros_ws/src/scout_mini_hardware/src/scout_mini_hardware.cpp > CMakeFiles/scout_mini_hardware.dir/src/scout_mini_hardware.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Apollo/ros_ws/src/scout_mini_hardware/src/scout_mini_hardware.cpp > CMakeFiles/scout_mini_hardware.dir/src/scout_mini_hardware.cpp.i
 
 CMakeFiles/scout_mini_hardware.dir/src/scout_mini_hardware.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scout_mini_hardware.dir/src/scout_mini_hardware.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /apollo/ros_ws/src/scout_mini_hardware/src/scout_mini_hardware.cpp -o CMakeFiles/scout_mini_hardware.dir/src/scout_mini_hardware.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Apollo/ros_ws/src/scout_mini_hardware/src/scout_mini_hardware.cpp -o CMakeFiles/scout_mini_hardware.dir/src/scout_mini_hardware.cpp.s
 
 # Object files for target scout_mini_hardware
 scout_mini_hardware_OBJECTS = \
@@ -106,12 +106,12 @@ libscout_mini_hardware.so: /opt/ros/humble/lib/libros2_socketcan_msgs__rosidl_ty
 libscout_mini_hardware.so: /opt/ros/humble/lib/libros2_socketcan_msgs__rosidl_typesupport_introspection_cpp.so
 libscout_mini_hardware.so: /opt/ros/humble/lib/libros2_socketcan_msgs__rosidl_typesupport_cpp.so
 libscout_mini_hardware.so: /opt/ros/humble/lib/libros2_socketcan_msgs__rosidl_generator_py.so
-libscout_mini_hardware.so: /apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_fastrtps_c.so
-libscout_mini_hardware.so: /apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_introspection_c.so
-libscout_mini_hardware.so: /apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_fastrtps_cpp.so
-libscout_mini_hardware.so: /apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_introspection_cpp.so
-libscout_mini_hardware.so: /apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_cpp.so
-libscout_mini_hardware.so: /apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_generator_py.so
+libscout_mini_hardware.so: /Apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_fastrtps_c.so
+libscout_mini_hardware.so: /Apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_introspection_c.so
+libscout_mini_hardware.so: /Apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_fastrtps_cpp.so
+libscout_mini_hardware.so: /Apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_introspection_cpp.so
+libscout_mini_hardware.so: /Apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_cpp.so
+libscout_mini_hardware.so: /Apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_generator_py.so
 libscout_mini_hardware.so: /opt/ros/humble/lib/libfake_components.so
 libscout_mini_hardware.so: /opt/ros/humble/lib/libmock_components.so
 libscout_mini_hardware.so: /opt/ros/humble/lib/libhardware_interface.so
@@ -291,8 +291,8 @@ libscout_mini_hardware.so: /opt/ros/humble/lib/libaction_msgs__rosidl_generator_
 libscout_mini_hardware.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_py.so
 libscout_mini_hardware.so: /opt/ros/humble/lib/libcan_msgs__rosidl_generator_c.so
 libscout_mini_hardware.so: /opt/ros/humble/lib/libros2_socketcan_msgs__rosidl_generator_c.so
-libscout_mini_hardware.so: /apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_c.so
-libscout_mini_hardware.so: /apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_generator_c.so
+libscout_mini_hardware.so: /Apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_c.so
+libscout_mini_hardware.so: /Apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_generator_c.so
 libscout_mini_hardware.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
 libscout_mini_hardware.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
 libscout_mini_hardware.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -358,7 +358,7 @@ libscout_mini_hardware.so: /opt/ros/humble/lib/librcpputils.so
 libscout_mini_hardware.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libscout_mini_hardware.so: /opt/ros/humble/lib/librcutils.so
 libscout_mini_hardware.so: CMakeFiles/scout_mini_hardware.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/apollo/ros_ws/build/scout_mini_hardware/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libscout_mini_hardware.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Apollo/ros_ws/build/scout_mini_hardware/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libscout_mini_hardware.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/scout_mini_hardware.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -370,6 +370,6 @@ CMakeFiles/scout_mini_hardware.dir/clean:
 .PHONY : CMakeFiles/scout_mini_hardware.dir/clean
 
 CMakeFiles/scout_mini_hardware.dir/depend:
-	cd /apollo/ros_ws/build/scout_mini_hardware && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /apollo/ros_ws/src/scout_mini_hardware /apollo/ros_ws/src/scout_mini_hardware /apollo/ros_ws/build/scout_mini_hardware /apollo/ros_ws/build/scout_mini_hardware /apollo/ros_ws/build/scout_mini_hardware/CMakeFiles/scout_mini_hardware.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Apollo/ros_ws/build/scout_mini_hardware && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Apollo/ros_ws/src/scout_mini_hardware /Apollo/ros_ws/src/scout_mini_hardware /Apollo/ros_ws/build/scout_mini_hardware /Apollo/ros_ws/build/scout_mini_hardware /Apollo/ros_ws/build/scout_mini_hardware/CMakeFiles/scout_mini_hardware.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/scout_mini_hardware.dir/depend
 

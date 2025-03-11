@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "scout_mini_msgs")
 set(scout_mini_msgs_VERSION "0.1.0")
-set(scout_mini_msgs_MAINTAINER "Brighten Lee <shlee@roas.co.kr>")
+set(scout_mini_msgs_MAINTAINER "Ajay Sudhir <ajaydsudhir@gmail.com>")
 set(scout_mini_msgs_BUILD_DEPENDS "builtin_interfaces" "std_msgs")
 set(scout_mini_msgs_BUILDTOOL_DEPENDS "ament_cmake" "rosidl_default_generators")
 set(scout_mini_msgs_BUILD_EXPORT_DEPENDS "builtin_interfaces" "std_msgs")
